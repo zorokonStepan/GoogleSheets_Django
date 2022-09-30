@@ -95,6 +95,7 @@ class ValuteExRate(Singleton):
                 if valute.attrib['ID'] == self.id_valute:
                     value = valute.find('Value').text
                     value = float(value.replace(',', '.'))
+                    break
         return value
 
 
