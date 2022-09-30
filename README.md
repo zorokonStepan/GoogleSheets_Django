@@ -34,14 +34,18 @@ PASSWORD=<br>
 HOST=<br>
 PORT=<br>
 <br>
-9. Загляните в kanal_service\monitoring_google_sh\config.py<br>
+9. Сделать миграции БД
+cd kanal_service
+python manage.py makemigrations monitoring_google_tab
+python manage.py migrate
+9. Загляните в kanal_service\monitoring_google_tab\config.py<br>
 Для Google Sheet:<br>
 CREDENTIALS_FILE =<br>
 SPREADSHEET_ID =<br>
 <br>
 Менять не стоит:<br>
 path_cbr = 'http://www.cbr.ru/scripts/XML_daily.asp?date_req='<br>
-path_graph = 'monitoring_google_sh/static/monitoring.png'<br>
+path_graph = 'monitoring_google_tab/static/monitoring.png'<br>
 <br>
 Менять стоит:<br>
 reboot_period = 15  # период обновления веб-страницы в секундах<br>
