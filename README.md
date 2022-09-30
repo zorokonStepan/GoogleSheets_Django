@@ -1,3 +1,6 @@
+https://docs.google.com/spreadsheets/d/1mLIXrG9BuW8vsGIDczUOUq263jBWry0QBFNCSiFNdG0/edit#gid=0
+ссылка на Google Sheets
+
 Программа реализует взаимодействие Google Sheets и БД на основе PostgreSQL
 согласно ТЗ тестового задания.
 Содержание документа выводиться онлайн на веб-странице с автоматическим обновлением.
@@ -73,3 +76,5 @@ P.S.<br>
 Завести в PostgreSQL дату в формате дд.мм.гггг не получилось. Искал долго. Но увы.<br>
 2. Реализация на Django - это дополнительный пункт. Рядом с Django д.б. React.<br>
 Я с React не знаком. Сделал график с помощью matplotlib.<br>
+
+
