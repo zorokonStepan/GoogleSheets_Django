@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content={{ reboot_period }} >
+        <title>Monitoring</title>
+        <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+    </head>
+    <body>
+        <div class="header"><img src="static/label.png" alt="label" width="100"></div>
+        <table>
+            <tr>
+                <td style="vertical-align: top;"><img src="static/monitoring.png" alt="monitoring" width="700"></td>
+                <td>
+                    <br>
+                    <br>
+                    <br>
+                    <table class="total" style="text-align: center">
+                        <tr class="head_tab" style="font-size: 30px;">
+                            <td width="350">Total, $</td><td width="350">Total, ₽</td>
+                        </tr>
+                        <tr style="font-size: 80px;">
+                            <td class="total">{{ total_dol }}</td><td>{{ total_rub }}</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <br>
+                    <table class="db">
+                        <tr class="head_tab">
+                            {% for h in head_google_sh %}
+                                <td width="140" style="font-size: 20px;">{{ h }}</td>
+                            {% endfor %}
+                        </tr>
+                        {% for row in content_tab %}
+                            <tr>
+                                {% for item in row %}
+                                    <td class="db">{{ item }}</td>
+                                {% endfor %}
+                            </tr>
+                        {% endfor %}
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
+

@@ -1,0 +1,28 @@
+body {
+    outline: 5px solid #000; /* Чёрная рамка */
+    border: 10px solid #fff; /* Белая рамка */
+}
+
+td {
+    text-align: center;
+}
+
+.header {
+    background-color: #97F1A1;
+}
+
+.total {
+    border: 1px solid #07101D;
+    border-collapse: collapse;
+}
+
+.db {
+    border: 1px solid #bbbfc9;
+    border-collapse: collapse;
+    background-color: #E9F2FF;
+}
+
+.head_tab {
+    background-color: #07101D;
+    color: white;
+}
