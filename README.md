@@ -34,11 +34,12 @@ PASSWORD=<br>
 HOST=<br>
 PORT=<br>
 <br>
-9. Сделать миграции БД
-cd kanal_service
-python manage.py makemigrations monitoring_google_tab
-python manage.py migrate
-9. Загляните в kanal_service\monitoring_google_tab\config.py<br>
+9. Сделать миграции БД<br>
+cd kanal_service<br>
+python manage.py makemigrations monitoring_google_tab<br>
+python manage.py migrate<br>
+<br>
+10. Загляните в kanal_service\monitoring_google_tab\config.py<br>
 Для Google Sheet:<br>
 CREDENTIALS_FILE =<br>
 SPREADSHEET_ID =<br>
@@ -50,7 +51,7 @@ path_graph = 'monitoring_google_tab/static/monitoring.png'<br>
 Менять стоит:<br>
 reboot_period = 15  # период обновления веб-страницы в секундах<br>
 <br>
-10.<br>
+11.<br>
 Создать проект в Google<br>
 получить ключи в .json и сохранить как creds.json в корне данного проекта<br>
 пример в creds.json.example<br>
@@ -60,7 +61,7 @@ https://www.youtube.com/watch?v=Bf8KHZtcxnA&t=662s<br>
 https://habr.com/ru/post/575160/<br>
 https://habr.com/ru/post/305378/<br>
 <br>
-11.
+12.
 Запуск проекта python manage.py runserver<br>
 На главной и единственной странице веб приложения появится все, что должно появиться.<br>
 <br>
