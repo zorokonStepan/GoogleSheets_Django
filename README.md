@@ -16,15 +16,15 @@ https://docs.google.com/spreadsheets/d/1mLIXrG9BuW8vsGIDczUOUq263jBWry0QBFNCSiFN
   <img src="https://github.com/zorokonStepan/GoogleSheets_Django/raw/main/img_git/web_page.png" width="450" title="WebPage">
 </p>
 
-Порядок действий:
-буду писать команды под Windows, под другие ОС в сети информация есть
+Запускаем проект на своей машине:
 <ol>
-    <li>Установить Python</li>
-    <li>Создать папку проекта.</li>
-    <li>Создать в папке виртуальное окружение python -m venv venv</li>
-    <li>Скачать в папку проекта этот Git репозиторий</li>
+    <li>Клонируем репозиторий git clone https://github.com/zorokonStepan/GoogleSheets_Django</li>
+    <li>Переходим в папку с проектом cd GoogleSheets_Django (здесь и далее приводятся команды на машине под win)</li>
+    <li>Устанавливаем виртуальное окружение python -m venv venv</li>
     <li>Активировать виртуальное окружение .\venv\Scripts\activate</li>
-    <li>Установить библиотеки Python pip install -r requirements.txt</li>
+    <li>Обновляем pip python -m pip install --upgrade pip</li>
+    <li>Устанавливаем в виртуальном окружении зависимости для проекта 
+        python -m pip install --no-cache-dir -r requirements.txt</li>
     <li>Установить PostgreSQL. Создать БД.</li>
     <li>Создать файл .env и прописать в него данные. в env_example указано какие<br>
         SECRET_KEY= - ключ Django<br>
@@ -65,17 +65,15 @@ https://docs.google.com/spreadsheets/d/1mLIXrG9BuW8vsGIDczUOUq263jBWry0QBFNCSiFN
         https://habr.com/ru/post/305378/<br>
         <br>
     </li>
-    <li>Запуск проекта python manage.py runserver<br>
-        На главной и единственной странице веб приложения появится все, что должно появиться.
-    </li>
+    <li>Запуск локального сервера python manage.py runserver<br></li>
+    <li>По адресу http://localhost:8000 будет 
+    <img src="https://github.com/zorokonStepan/GoogleSheets_Django/raw/main/img_git/web_page.png" width="450" title="WebPage"></li>
 </ol>
 
 P.S.
 <ol>
     <li>Данная программа написана для обработки Google таблицы определенной формы и содержания.</li>
     <li>creds.json расшарил т.к. это тестовое задание.</li>
-    <li>Нужно изменить: страница обновляется в любом случае, есть изменения или нет.</li>
-    Нужно добавить функционал, чтобы страница обновлялась только при наличии изменений.</li>
 </ol>
 
 
