@@ -21,7 +21,7 @@ https://docs.google.com/spreadsheets/d/1mLIXrG9BuW8vsGIDczUOUq263jBWry0QBFNCSiFN
     <li>Клонируем репозиторий git clone https://github.com/zorokonStepan/GoogleSheets_Django</li>
     <li>Переходим в папку с проектом cd GoogleSheets_Django (здесь и далее приводятся команды на машине под win)</li>
     <li>Устанавливаем виртуальное окружение python -m venv venv</li>
-    <li>Активировать виртуальное окружение .\venv\Scripts\activate</li>
+    <li>Активируем виртуальное окружение .\venv\Scripts\activate</li>
     <li>Обновляем pip python -m pip install --upgrade pip</li>
     <li>Устанавливаем в виртуальном окружении зависимости для проекта 
         python -m pip install --no-cache-dir -r requirements.txt</li>
