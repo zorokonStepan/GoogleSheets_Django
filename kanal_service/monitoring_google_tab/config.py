@@ -13,6 +13,6 @@ SPREADSHEET_ID = env.str("SPREADSHEET_ID")
 # нужную дату в конце в формате дд/мм/гггг
 path_cbr = 'http://www.cbr.ru/scripts/XML_daily.asp?date_req='
 # адрес для сохранения графика
-path_graph = 'monitoring_google_tab/static/monitoring.png'
+path_graph = 'monitoring_google_tab/static/monitoring_google_tab/images/monitoring.png'
 # период обновления веб-страницы в секундах
 reboot_period = 15
