@@ -37,5 +37,5 @@ def monitoring(request: HttpRequest):
                'path_graph': path_graph,
                'reboot_period': reboot_period}
 
-    return render(request, 'monitoring.html', context)
+    return render(request, 'monitoring_google_tab/monitoring.html', context)
 
