@@ -12,7 +12,7 @@ https://docs.google.com/spreadsheets/d/1mLIXrG9BuW8vsGIDczUOUq263jBWry0QBFNCSiFN
 
 Выглядит веб-страница так:
 <p align="center">
-  <img src="https://github.com/zorokonStepan/GoogleSheets_Django/raw/main/img_git/web_page.png" width="450" title="WebPage">
+  <img src="https://github.com/zorokonStepan/GoogleSheets_Django/raw/main/img_git/new_web_page.png" width="450" title="WebPage">
 </p>
 
 Запускаем проект на своей машине:
@@ -66,7 +66,7 @@ https://docs.google.com/spreadsheets/d/1mLIXrG9BuW8vsGIDczUOUq263jBWry0QBFNCSiFN
     </li>
     <li>Запуск локального сервера python manage.py runserver<br></li>
     <li>По адресу http://localhost:8000 будет 
-    <img src="https://github.com/zorokonStepan/GoogleSheets_Django/raw/main/img_git/web_page.png" width="450" title="WebPage"></li>
+    <img src="https://github.com/zorokonStepan/GoogleSheets_Django/raw/main/img_git/new_web_page.png" width="450" title="WebPage"></li>
 </ol>
 
 P.S.
