@@ -73,7 +73,6 @@ https://docs.google.com/spreadsheets/d/1mLIXrG9BuW8vsGIDczUOUq263jBWry0QBFNCSiFN
 P.S.
 <ol>
     <li>Данная программа написана для обработки Google таблицы определенной формы и содержания.</li>
-    <li>creds.json расшарил т.к. это тестовое задание.</li>
 </ol>
 
 

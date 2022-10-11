@@ -17,12 +17,6 @@ from .aux_functions import sorted_dict, convert_date_vect
 """
 
 
-# SPREADSHEET_ID импортируется из config.py, а хрониться ID в скрытом файле .env
-# но т.к. этот ключ может понадобиться проверяющему тестовое задание
-# выкладываю ID сюда
-SPREADSHEET_ID = '1mLIXrG9BuW8vsGIDczUOUq263jBWry0QBFNCSiFNdG0'
-
-
 class Singleton:
     """
     Класс для создания общего поведения классов - ValuteExRate, GoogleSheet, ManagerDB

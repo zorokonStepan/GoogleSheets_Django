@@ -1,4 +1,5 @@
 # **Тестовое задание Python**
+https://unwinddigital.notion.site/unwinddigital/Python-1fdcee22ef5345cf82b058c333818c08
 
 Необходимо разработать скрипт на языке Python 3, 
 
