@@ -1,6 +1,3 @@
-https://docs.google.com/spreadsheets/d/1mLIXrG9BuW8vsGIDczUOUq263jBWry0QBFNCSiFNdG0/edit#gid=0
-ссылка на Google Sheets
-
 Программа реализует взаимодействие Google Sheets и БД на основе PostgreSQL.
 Содержание документа выводиться онлайн на веб-странице с автоматическим обновлением.
 Курс валюты берется со официальной ссылки ЦБ РФ.
